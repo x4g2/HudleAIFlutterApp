@@ -1,0 +1,18 @@
+name: hudle_ai_flutter_app
+description: A Hudle-style AI-powered sports booking Flutter app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.4.0
+  cloud_firestore: ^4.5.0
+  http: ^0.13.5
+
+flutter:
+  uses-material-design: true
